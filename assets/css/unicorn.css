@@ -2,4 +2,25 @@
 
 body {
 	margin: 0;
+	background-color: black;
+}
+
+.main_nav__hamb-img {
+	width: 3rem;
+	height: auto;
+	float: left;
+}
+
+.main_intro__img {
+	/*me falta alinearlo al centro*/
+}
+
+@media screen and (max-width: 786px) {
+	
+	.main_intro__img {
+		width: 400px;
+		height: auto;
+	}
+
+
 }
