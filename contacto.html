@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,28 +28,22 @@
 		</nav> <!--/MENÚ ELEMENTOS-->
 	</header>
 
-	<section class="main_contact">
+	<section class="main_contact container">
 
-	<form role="form">
-		<div class="form-group">
+	<form role="form main_contact__form">
+		<div class="form-group main_contact__box">
 			<label for="name">NOMBRE</label>
 			<input type="name" class="form-control" name="name" id="name" placeholder="Para saber quién me escribe.">
 		</div>
-		<div class="form-group">
+		<div class="form-group main_contact__box">
 			<label for="mail">MAIL</label>
 			<input type="mail" class="form-control" name="mail" id="mail" placeholder="Deja tu correo para responderte.">
 		</div>
-		<div class="form-group">
-			<label for="exampleInputFile">File input</label>
-			<input type="file" id="exampleInputFile">
-			<p class="help-block">Example block-level help text here.</p>
+		<div class="form-group main_contact__box">
+			<label for="text">DEJA TU MENSAJE</label>
+			<textarea name="text" id="text" class="form-control" id="" cols="30" rows="10" placeholder="Escríbeme lo que necesitas"></textarea>
 		</div>
-		<div class="checkbox">
-			<label>
-				<input type="checkbox"> Check me out
-			</label>
-		</div>
-		<button type="submit" class="btn btn-default">Submit</button>
+		<button type="submit" class="btn main_contact__btn">¡ENVIAR!</button>
 	</form>
 
 

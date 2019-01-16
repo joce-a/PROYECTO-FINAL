@@ -62,26 +62,56 @@ body {
 	padding: 200px 0 30px;
 	color: #E6BCD8;
 	font-size: 6em;
-	}
+}
 
 .main_about__btn {
+	background: url(../images/pink-logo.png) no-repeat center / 200px auto transparent;
 	text-align: center;
 	width: 200px;
+	height: 140px;
 	margin: auto;
-	}
+}
+
+.main_about__btn:hover {
+	background-image: url(../images/blackpink-logo.png);
+}
 
 .main_about__btn-img {
 	width: 200px;
-	}
+}
 
 .main_about__btn-txt {
 	color: #E6BCD8;
 	margin-top: 0;
 	margin-bottom: 50px;
-	}
+	text-decoration: none;
+}
+
+.main_about__link {
+	text-align: center;
+	text-decoration: none;
+}
 
 /*CONTACTO.HTML*/
+.main_contact {
+	color: #E6BCD8;
+	text-align: center;
+	font-size: 1.3em;
+	}
 
+.main_contact__box {
+	width: 600px;
+	margin: 20px auto;
+}
+
+.main_contact__box .form-control {
+	padding: 20px 10px;
+}
+
+.main_contact__btn {
+	background-color: #E6BCD8;
+	color: black;
+}
 
 
 /*PORTFOLIO.HTML*/
@@ -191,19 +221,38 @@ body {
 		padding: 100px 0 30px;
 		color: #E6BCD8;
 		font-size: 2em;
-		}
-
-	.main_about__btn {
-		width: 120px;
-		}
+	}
 
 	.main_about__btn-img {
 		width: 120px;
-		}
+	}
 
 	.main_about__btn-txt {
 		margin-bottom: 30px;
 		font-size: 1em;
+	}
+
+	.main_about__btn {
+		width: 90px;
+		height: 90px;
+		margin-bottom: 20px;
+	}
+
+
+/*CONTACTO.HTML*/
+	.main_contact {
+		font-size: 1em;
+		}
+
+	.main_contact__box {
+		width: 150px;
+		margin: 10px auto;
+		}
+
+	.main_contact__box-txt {
+		width: 190px;
+		/*height: 300px; NO ME RESULTA LA ALTURA*/
+		margin: 10px auto;
 		}
 
 /*PORTFOLIO.HTML*/
