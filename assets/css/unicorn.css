@@ -272,11 +272,12 @@ body {
 
 	.main_intro__br {
 		height: 2px;
-		margin: 50px 0;
+		margin: 40px 0 50px;
 	}
 
 	.main_portfolio__web_box-img {
 		width: 300px;
+		margin: 0 auto;
 	}
 
 	.main_portfolio__web_box-title {
@@ -284,13 +285,8 @@ body {
 	}
 
 	.main_portfolio__web_box-txt {
-		visibility: hidden;
+		display: none;
 	}
-
-	.main_portfolio__web_note {
-		margin-bottom: 0;
-	} /*HAY QUE ARREGLARLO; SE VE MUCHO ESPACIO POR LA INSTRUCCIÓN DE ARRIBA*/
-
 
 /*FOOTER*/
 	.main_foot__br {
