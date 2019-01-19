@@ -5,6 +5,6 @@ $(function (){
 		$('.main_nav__elements').toggleClass('show');
 	});
 
-
+	
 
 });
