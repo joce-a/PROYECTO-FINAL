@@ -6,9 +6,21 @@ body {
 }
 
 /*NAV*/	
+.main_header {
+	position: absolute;
+}
+
+.main_nav {
+	position: fixed;
+	background-color: black;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+}
 
 .main_nav__hamb {
 	display: none;
+	background-color: black;
 }
 
 .main_nav__link {
@@ -40,11 +52,11 @@ body {
 	padding-bottom: 20px;
 }
 
-/*FOOTER*/
-.main_foot {
+.main_intro__img {
 	margin-top: 80px;
 }
 
+/*FOOTER*/
 .main_foot__br {
 	width: auto;
 	height: 4px;
@@ -99,6 +111,10 @@ body {
 	font-size: 1.3em;
 }
 
+.main_contact__form {
+	margin: 150px auto 20px;
+}
+
 .main_contact__box {
 	width: 600px;
 	margin: 20px auto;
@@ -134,7 +150,7 @@ body {
 	width: 500px;
 	height: 80px;
 	border: 2px solid #E6BCD8;
-	margin: auto;
+	margin: 150px auto 0;
 }
 
 .main_intro__box-txt {
@@ -184,8 +200,19 @@ body {
 	margin-bottom: 20px;
 }
 
+.main_portfolio__gallery-img {
+	width: 1200px;
+	margin-bottom: 20px;
+}
+
 @media screen and (max-width: 786px) {
 /*NAV*/
+
+	.main_nav__hamb {
+		padding: 10px 0 0 20px;
+		display: block;
+	}
+
 	.main_nav__hamb-img {
 		width: 3rem;
 		height: auto;
@@ -193,22 +220,18 @@ body {
 	}
 
 	.main_nav__hamb-link {
-		padding: 5px;
+		padding: 20px 5px;
 		display: inline-block;
 	}
 
-	.main_nav__hamb {
-		padding: 20px 0 0 20px;
-		display: block;
-	}
+	.main_nav__logo-mq {
+		float: right;
+		width: 80px;
+	} 
 
 	.main_intro__img {
 		width: 350px;
 		height: auto;
-	}
-
-	.main_nav__hamb {
-		padding: 20px 0 0 20px;
 	}
 
 	.main_nav__elements {
@@ -230,6 +253,10 @@ body {
 	.main_intro__div {
 		padding: 10px 0;
 	} 
+
+	.main_intro__img {
+		margin-top: 70px;
+	}
 
 /*ABOUT.HTML*/
 	.main_about__txt {
@@ -254,9 +281,12 @@ body {
 	}
 
 /*CONTACTO.HTML*/
-
 	.main_contact {
 		font-size: 1.1em;
+	}
+
+	.main_contact__form {
+		margin-top: 100px;
 	}
 
 	.main_contact__box {
@@ -267,7 +297,7 @@ body {
 /*PORTAFOLIO.HTML*/
 	.main_media__box-img {
 		width: 150px;
-		padding: 10px 0;
+		padding: 20px 0;
 	}
 
 /*MEDIA.HTML*/
@@ -275,6 +305,7 @@ body {
 		width: 300px;
 		height: 60px;
 		border: 1px solid #E6BCD8;
+		margin-top: 100px;
 	}
 
 	.main_intro__box-txt {

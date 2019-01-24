@@ -13,40 +13,39 @@
 </head>
 <body>
 	
-	<header>
+	<header class="main_header">
 		<!--MENÚ ELEMENTOS-->
 		<nav class="main_nav">
 			<!--MENÚ HAMBURGUESA-->
 			<div class="main_nav__hamb">
 				<a href="#" class="main_nav__hamb-link"><img src="assets/icons/bars-solid.svg" class="main_nav__hamb-img" alt="menu"></a>
+				<a href="./index.html"><img class="main_nav__logo-mq" src="assets/images/pink-logo.png"></a>
 			</div><!--/MENÚ HAMBURGUESA-->
 			<ul class="main_nav__elements">
+				<li class="main_nav__list"><a href="./index.html" class="main_nav__link">HOME</a></li>
 				<li class="main_nav__list"><a href="./about.html" class="main_nav__link">MÁS DE MI</a></li>
 				<li class="main_nav__list"><a href="./portafolio.html" class="main_nav__link">PORTAFOLIO</a></li>
-				<li class="main_nav__list"><a href="./index.html" class="main_nav__link">HOME</a></li>
+				<li class="main_nav__list"><a href="./contacto.html" class="main_nav__link">CONTACTO</a></li>
 			</ul>
 		</nav> <!--/MENÚ ELEMENTOS-->
 	</header>
 
 	<section class="main_contact container">
-
-	<form role="form main_contact__form">
-		<div class="form-group main_contact__box">
-			<label for="name">NOMBRE</label>
-			<input type="name" class="form-control" name="name" id="name" placeholder="Para saber quién me escribe.">
-		</div>
-		<div class="form-group main_contact__box">
-			<label for="mail">MAIL</label>
-			<input type="mail" class="form-control" name="mail" id="mail" placeholder="Deja tu correo para responderte.">
-		</div>
-		<div class="form-group main_contact__box">
-			<label for="text">DEJA TU MENSAJE</label>
-			<textarea name="text" id="text" class="form-control" id="" cols="30" rows="10" placeholder="Escríbeme lo que necesitas"></textarea>
-		</div>
-		<button type="submit" class="btn main_contact__btn">¡ENVIAR!</button>
-	</form>
-
-
+		<form role="form" class="main_contact__form">
+			<div class="form-group main_contact__box">
+				<label for="name">NOMBRE</label>
+				<input type="name" class="form-control" name="name" id="name" placeholder="Para saber quién me escribe.">
+			</div>
+			<div class="form-group main_contact__box">
+				<label for="mail">MAIL</label>
+				<input type="mail" class="form-control" name="mail" id="mail" placeholder="Deja tu correo para responderte.">
+			</div>
+			<div class="form-group main_contact__box">
+				<label for="text">DEJA TU MENSAJE</label>
+				<textarea name="text" id="text" class="form-control" id="" cols="30" rows="10" placeholder="Escríbeme lo que necesitas"></textarea>
+			</div>
+			<button type="submit" class="btn main_contact__btn">¡ENVIAR!</button>
+		</form>
 	</section>
 	
 	<footer class="main_foot">
