@@ -4,5 +4,4 @@ $(function (){
 		e.preventDefault();
 		$('.main_nav__elements').toggleClass('show');
 	});
-
 });
