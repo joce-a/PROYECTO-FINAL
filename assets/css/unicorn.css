@@ -146,6 +146,10 @@ body {
 }
 
 /*MEDIA.HTML*/
+.main_media {
+	margin-top: 150px;
+}
+
 .main_intro__box {
 	width: 500px;
 	height: 80px;
