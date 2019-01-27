@@ -157,6 +157,12 @@ body {
 	margin: 150px auto 0;
 }
 
+.main_portfolio__intro {
+	text-align: center;
+	color: #E6BCD8;
+	margin: 0 0 50px;
+}
+
 .main_intro__box-txt {
 	text-align: center;
 	color: #E6BCD8;
@@ -172,7 +178,7 @@ body {
 	width: auto;
 	height: 4px;
 	background-color: #E6BCD8;
-	margin: 100px 0;
+	margin: 50px 0;
 }
 
 .main_portfolio__web_box-img {
