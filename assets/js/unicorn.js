@@ -32,7 +32,40 @@ $(function (){
 		$('#demo6').simplePopup();
 	});
 
-	//video jQuery plugin
-	$('.covervid-video').coverVid(1920, 1080);
+		//AJAX BEER API
+       
+        setTimeout(function() {
+            api.beer();
+        });
+
+        setInterval("api.beer()", 10000);
+
+   
+
+    api = {
+        beer: function() {
+            jQuery.ajax({
+                url: 'https://api.punkapi.com/v2/beers/random',
+                method: 'GET',
+                dataType: 'json',
+                data: { get_param: 'value' }, 
+                cache: false,
+                success: function(data) {
+                   $.each(data, function(index, atributos) {
+                         var nombre_cerveza = atributos.name;
+                         var desc = atributos.tagline;
+                         var foto_cerveza = atributos.image_url;
+                         $('#nombre-cerveza').text(nombre_cerveza);
+                         $('#desc').text(desc);
+                         $('#foto-cerveza').attr("src", foto_cerveza);
+                   });
+
+                },
+            });
+        }
+    }
+
+
+
 
 });

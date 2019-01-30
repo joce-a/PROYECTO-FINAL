@@ -37,8 +37,6 @@ function dl_enqueue_scripts() {
 	wp_register_script( 'flickity', get_theme_file_uri('/assets/js/lib/flickity.pkgd.js'), array('jquery-migrate'), '2.1.0', true );
 	wp_register_script( 'flexslider', get_theme_file_uri('/assets/js/lib/jquery.flexslider.js'), array('jquery-migrate'), null, true );
 	wp_register_script( 'bootstrap_js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array('jquery'), '3.3.7', true );
-	wp_register_script( 'covervideo', get_theme_file_uri('/assets/js/covervid.min.js'), $deps, $theme_data->get( 'Version' ), true );
-	wp_register_script( 'cover_vid_funcs', get_theme_file_uri('/assets/js/cover_vid_funcs.js'), array('covervideo'), null, true );
 	wp_register_script( 'popup_plugin', get_theme_file_uri('/assets/js/jquery.simplePopup.js'), $deps, $theme_data->get( 'Version' ), true );
 	wp_register_script( 'unicorn', get_theme_file_uri('/assets/js/unicorn.js'), $deps, $theme_data->get( 'Version' ), true );
 
@@ -51,13 +49,7 @@ function dl_enqueue_scripts() {
 		wp_enqueue_script( 'flickity' );
 	}
 
-	if (is_page('about')) {
-		wp_enqueue_script( 'covervideo' );
-		wp_enqueue_script( 'cover_vid_funcs' );
-	}
-
 	wp_enqueue_script( 'bootstrap_js' );
-	wp_enqueue_script( 'covervideo' );
 	wp_enqueue_script( 'popup_plugin' );
 	wp_enqueue_script( 'unicorn' );
 }
