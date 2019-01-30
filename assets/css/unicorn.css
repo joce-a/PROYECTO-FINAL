@@ -70,18 +70,21 @@ body {
 }
 
 /*ABOUT.HTML*/
+.main_about__box {
+	position: absolute;
+}
+
 .main_about__txt {
 	padding: 200px 0 30px;
-	color: #E6BCD8;
+	color: black;
 	font-size: 6em;
 }
 
 .main_about__btn {
 	background: url(../images/pink-logo.png) no-repeat center / 200px auto transparent;
-	text-align: center;
 	width: 200px;
-	height: 140px;
 	margin: auto;
+	height: 140px;
 }
 
 .main_about__btn:hover {
@@ -93,15 +96,25 @@ body {
 }
 
 .main_about__btn-txt {
-	color: #E6BCD8;
+	color: black;
 	margin-top: 0;
 	margin-bottom: 50px;
 	text-decoration: none;
 }
 
 .main_about__link {
-	text-align: center;
 	text-decoration: none;
+	text-align: center;
+}
+
+/*ABOUT JQUERY PLUGIN VIDEO*/
+.covervid-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 150px;
+    width: 100%;
+    height: 100%;
 }
 
 /*CONTACTO.HTML*/
@@ -299,9 +312,12 @@ body {
 	}
 
 /*ABOUT.HTML*/
+	.main_about {
+		padding-top: 100px;
+	}
+
 	.main_about__txt {
-		padding: 100px 0 30px;
-		color: #E6BCD8;
+		padding: 50px 0 30px;
 		font-size: 2em;
 	}
 
