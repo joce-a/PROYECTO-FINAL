@@ -7,7 +7,6 @@
 	?>
 
 	<div class="main_api container">
-
 		<div class="row">
 			<div class="">
         		<h4 class="main_api__txt"> TU VISITA MERECE UNA CERVEZA </h4>
@@ -21,7 +20,6 @@
            		<img class="main_api__img img-responsive" src="" id="foto-cerveza">
         	</div>
       	</div>
-
     </div>
 	
 	<?php if ( is_active_sidebar( 'contact-widget' ) ) { ?>
