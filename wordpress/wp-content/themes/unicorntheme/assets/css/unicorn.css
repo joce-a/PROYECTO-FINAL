@@ -263,8 +263,8 @@ body {
 }
 
 .main_portfolio__gallery-img {
-	width: 1200px;
-	margin-bottom: 20px;
+	width: 1000px;
+	margin: 0 auto 20px;
 }
 
 @media screen and (max-width: 786px) {
