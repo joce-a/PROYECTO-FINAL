@@ -8,7 +8,7 @@
 
 	<div class="main_api container">
 		<div class="row">
-			<div class="">
+			<div>
         		<h4 class="main_api__txt"> TU VISITA MERECE UNA CERVEZA </h4>
         		<h3 class="main_api__txt2" id="nombre-cerveza"></h3>
         		<h5 class="main_api__txt2" id="desc"></h5>
